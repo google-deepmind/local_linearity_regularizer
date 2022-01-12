@@ -1,0 +1,9 @@
+absl-py
+numpy
+ml_collections
+tensorflow == 1.14.0
+tensorflow-gpu == 1.14.0
+tensorflow-probability == 0.4.0
+dm-sonnet == 1.23
+tensorflow_datasets == 1.3.2
+interval_bound_propagation @ git+git://github.com/deepmind/interval-bound-propagation.git
