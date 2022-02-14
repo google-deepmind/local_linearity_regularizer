@@ -13,46 +13,46 @@ This repository contains an implementation of the Local Linearity Regularizer
 
    1. Clone the pyenv repository:
 
-     ```bash
-     git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-     ```
+      ```bash
+      git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+      ```
 
    1. Configure shell environment for pyenv, as described at
-   https://github.com/pyenv/pyenv#basic-github-checkout
+      https://github.com/pyenv/pyenv#basic-github-checkout
 
    1. Install Python 3.7 into pyenv:
 
-     ```bash
-     pyenv install 3.7.7
-     ```
+      ```bash
+      pyenv install 3.7.7
+      ```
 
    1. Set Python 3.7 as the current version:
 
-     ```bash
-     pyenv shell 3.7.7
-     ```
-     (To revert to the system version, use `pyenv shell default`.)
+      ```bash
+      pyenv shell 3.7.7
+      ```
+      (To revert to the system version, use `pyenv shell default`.)
 
 1. Clone the repository:
 
-  ```bash
-  git clone https://github.com/deepmind/local_linearity_regularizer.git
-  cd local_linearity_regularizer
-  ```
+   ```bash
+   git clone https://github.com/deepmind/local_linearity_regularizer.git
+   cd local_linearity_regularizer
+   ```
 
 1. Recommended: set up a virtual Python environment:
 
-  ```bash
-  python3 -m venv llr_env
-  source llr_env/bin/activate
-  ```
-  (To leave the virtual environment, type `deactivate`.)
+   ```bash
+   python3 -m venv llr_env
+   source llr_env/bin/activate
+   ```
+   (To leave the virtual environment, type `deactivate`.)
 
 1. Install the dependencies:
 
-  ```bash
-  pip3 install -r requirements.txt
-  ```
+   ```bash
+   pip3 install -r requirements.txt
+   ```
 
 ## Usage
 
